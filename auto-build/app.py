@@ -34,4 +34,4 @@ elif choice == '4':
 else:
     print("Неверная операция")
 
-print("Результат: ", result)
+print("Результат : ", result)
