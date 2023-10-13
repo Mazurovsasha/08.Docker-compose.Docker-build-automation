@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/Mazurovsasha/docker_build:1
+          tags: ghcr.io/mazurovsasha/docker_build:1
