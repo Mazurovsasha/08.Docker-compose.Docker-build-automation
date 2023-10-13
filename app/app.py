@@ -32,6 +32,6 @@ elif choice == '3':
 elif choice == '4':
     result = divide(num1, num2)
 else:
-    print("Неверная операция")
+    print("Неверная операция!")
 
-print("Результат : ", result)
+print("Результат: ", result)
