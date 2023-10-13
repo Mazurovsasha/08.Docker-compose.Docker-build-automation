@@ -1,4 +1,4 @@
-name: Publish Docker image2
+name: Publish Docker image
 
 on:
   release:
@@ -6,8 +6,6 @@ on:
   push:
     branches:
       - "master"
-    paths:
-      - "app"
 
 jobs:
   push_to_registries:
@@ -32,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/mazurovsasha/docker_build:2
+          tags: ghcr.io/mazurovsasha/docker_build:1
